@@ -1,12 +1,16 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block content %}
 
-{% block content %}
-
-<div>
-    <h1>Your order has been placed</h1>
-    <h2>Thank you For shopping with us</h2>
+<div style="background-color: #f8f8f8; padding: 20px; text-align: center">
+  <h1 style="color: #4caf50; font-size: 36px">Your Order Has Been Placed</h1>
+  <p style="font-size: 24px">Thank You For Shopping With Us</p>
+  <p style="font-size: 24px">
+    Your transaction has been completed successfully!
+  </p>
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScbKbE0MFFUthSmxnnhd9vim766r0p4UwOT8Z13jD3Ng&s"
+    alt="Balloons"
+    style="width: 200px; height: 200px; margin-top: 20px"
+  />
 </div>
-
-
 
 {% endblock %}
